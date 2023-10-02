@@ -18,27 +18,27 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class VehicleTest {
 
-    Car car = new Car("KIA", "Optima", 2022);
-    Motorcycle moto = new Motorcycle("Honda", "Gold Wing", 2020);
+    Car car = new Car("Hunday", "Solaris", 2022);
+    Motorcycle moto = new Motorcycle("Kawasaki", "Vulkan", 2020);
 
     //- проверка того, что экземпляр объекта Car также является экземпляром транспортного средства; (instanceof)
     @Test
     void instanceOf() {
-        //Car car = new Car("KIA", "Optima", 2022);
+        //Car car = new Car("Hunday", "Solaris", 2022);
         assertThat(car instanceof Vehicle);
     }
 
     //- проверка того, объект Car создается с 4-мя колесами
     @Test
     void WheelsCar() {
-        //Car car = new Car("KIA", "Optima", 2022);
+        //Car car = new Car("Hunday", "Solaris", 2022);
         assertThat(car.getNumWheels()).isEqualTo(4);
     }
 
     // - проверка того, объект Motorcycle создается с 2-мя колесами
     @Test
     void MotorcycleWheels() {
-        //Motorcycle moto = new Motorcycle("Honda", "Gold Wing", 2020);
+        //Motorcycle moto = new Motorcycle("Kawasaki", "Vulkan", 2020);
         assertThat(moto.getNumWheels()).isEqualTo(2);
     }
 
