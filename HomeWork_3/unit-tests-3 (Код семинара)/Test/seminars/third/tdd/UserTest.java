@@ -6,6 +6,7 @@ import static org.assertj.core.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+// HW_3
 // Задание №6
 // Разработайте класс User с методом аутентификации по логину и паролю. 
 // Метод должен возвращать true, если введенные логин и пароль корректны, иначе false. 

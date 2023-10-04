@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.*;
 
+// HW_3
 // Задание №5
 // Примените подход TDD для создания нового класса MoodAnalyser, который оценивает настроение выраженное во фразах.
 
