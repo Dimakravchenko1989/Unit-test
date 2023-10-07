@@ -6,6 +6,7 @@ public class WebService {
     public WebService(HttpClient httpClient) {
         this.httpClient = httpClient;
     }
+    
     public String getData(String url) {
         return httpClient.get(url);
     }
