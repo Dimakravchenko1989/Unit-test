@@ -13,6 +13,7 @@ public class WebServiceTest {
         httpClient = mock(HttpClient.class);
         webService = new WebService(httpClient);
     }
+    
     @Test
     public void testGetData() {
         String url = "https://12345.ru";
