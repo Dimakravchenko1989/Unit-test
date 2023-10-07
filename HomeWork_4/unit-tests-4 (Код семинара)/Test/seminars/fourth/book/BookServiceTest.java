@@ -12,11 +12,13 @@ public class BookServiceTest {
     @Mock
     private BookRepository bookRepository;
     private BookService bookService;
+    
     @Before
     public void setUp() {
         bookRepository = mock(BookRepository.class);
         bookService = new BookService(bookRepository);
     }
+
     @Test
     public void testFindBookById() {
         String id = "1";
@@ -26,6 +28,7 @@ public class BookServiceTest {
         verify(bookRepository).findById(id);
         assertEquals(book, result);
     }
+
     @Test
     public void testFindAllBooks() {
         List<Book> books = Arrays.asList(
