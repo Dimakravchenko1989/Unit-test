@@ -2,8 +2,9 @@ package seminars.fourth.web;
 
 public class HttpClient {
     public String get(String url) {
-        // String get(String url), который выполняет
+        // Метод String get(String url), который выполняет
         // HTTP-запрос и возвращает результат.
         return url;
     }
+
 }
